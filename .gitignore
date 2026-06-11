@@ -1,0 +1,43 @@
+# Compiled binaries
+MapNTLMHashes
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+*.test
+*.out
+/vendor/
+/go.sum
+
+# Go workspace
+go.work
+go.work.sum
+
+# IDE - VS Code / Cursor
+.vscode/
+*.code-workspace
+
+# IDE - GoLand / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
